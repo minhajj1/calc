@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+<body>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+	<form id="myForm" name="myForm" method="POST">
+	<table>
+		<tr>
+			<div id="first-row">
+				<input type="button" name="one" value="1" onclick="setValue(0)">
+				<input type="button" name="two" value="2" onclick="setValue(1)">
+				<input type="button" name="three" value="3" onclick="setValue(2)">
+
+			</div>
+			
+
+		</tr>	
+		<br>
+		<tr>
+			<div id="second-row">
+				<input type="button" name="four" value="4" onclick="setValue(3)">
+				<input type="button" name="five" value="5" onclick="setValue(4)">
+				<input type="button" name="six" value="6" onclick="setValue(5)">
+			</div>
+		</tr>	
+		<br>
+		<tr>
+			<div id="third row">
+				<input type="button" name="seven" value="7" onclick="setValue(6)">
+				<input type="button" name="eight" value="8" onclick="setValue(7)">
+				<input type="button" name="nine" value="9" onclick="setValue(8)">
+			</div>
+		</tr>
+		<br>	
+		<tr>
+			<div id="fourth-row">
+				<input type="button" name="blank" value="C" onclick="clearBox()"> 
+				<input type="button" name="zero" value="0" onclick="setZero()">
+				<input type="button" name="period" value="." onclick="setPeriod()">
+			</div>
+		</tr>		
+		<br>	
+		<tr>
+			<div id="fifth-row">
+				<input type="button" name="plus" value="+" onclick="addNumbers()">
+				<input type="button" name="minus" value="- ">
+				<input type="button" name="multiply" value="* ">
+				<input type="button" name="divide" value=" /">
+				<input type="button" name="equal" value="=">
+			</div>
+		</tr>
+		<br>
+		<input type="text" name="number1s" id="numbers">
+	</table>
+	</form>
+<script type="text/javascript" src="numpad.js"></script>
+<script type="text/javascript">
+	function addNumbers(){
+		
+		
+		}
+
+</script>
+</body>
+</html>
